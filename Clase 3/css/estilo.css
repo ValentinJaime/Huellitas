@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(250, 205, 127);
+}
+
+body{
+    background-color: rgb(250, 205, 127);
+    font-family: "Black Ops One", system-ui;
+}
+
+p{
+    background-color: rgb(226, 165, 130);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.textoDistinto{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contenedor-tarjetas{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    margin: 10px;
+    padding: 20px;
+
+    background-color: rgb(68, 68, 245);
+}
+
+.tarjeta{
+    background-color: orange;
+
+    width: 260px;
+
+    border-radius: 10px;
+
+
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 250px;
+
+    border-radius: 10px;
+}
+
+.tarjeta-datos{
+
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.tarjeta-datos h3{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+    width: 450px;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgb(207, 156, 61);
+}
+
+footer p{
+    background-color: rgb(221, 182, 109);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.sobreNosotros {
+    display: flex;
+}
+
+.sobreNosotros iframe {
+    border-radius: 20px;
+}
